@@ -4,9 +4,6 @@ on:
   workflow_dispatch:
   repository_dispatch:
 
-env:
-  TZ: Asia/Shanghai
-
 jobs:
   publish:
     runs-on: ubuntu-latest
@@ -15,9 +12,6 @@ jobs:
     steps:
     - name: Checkout
       uses: actions/checkout@v2
-    
-    - name: Set Timezone
-      run: sudo timedatectl set-timezone "$TZ"
 
     - name: Set up QEMU
       id: qemu
