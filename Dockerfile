@@ -1,6 +1,6 @@
 FROM python:3.7-alpine
 
-COPY files /
+COPY rootfs /
 
 RUN apk add --no-cache git gcc sed musl-dev postgresql-dev libffi-dev && \
     git clone https://github.com/JoneWang/sp2battlebot && \
