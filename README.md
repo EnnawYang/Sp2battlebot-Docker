@@ -1,5 +1,3 @@
-# Upstream code is being maintained , waiting for update
-
 # Sp2battlebot Docker Version [Telegram]
 
 Copyright @ [JoneWang](https://github.com/JoneWang/sp2battlebot) 
